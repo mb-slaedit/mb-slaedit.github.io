@@ -1,0 +1,81 @@
+{
+  "name": "RW Apple - Funnel de Conversão",
+  "description": "Funnel: Home → Catálogo → WhatsApp",
+  "dataSource": "GA4",
+  "dimensions": [
+    "eventName",
+    "pagePath",
+    "sessionSource"
+  ],
+  "metrics": [
+    "eventCount",
+    "sessions",
+    "totalUsers"
+  ],
+  "filters": [
+    {
+      "field": "eventName",
+      "operator": "IN_LIST",
+      "values": [
+        "page_view",
+        "cta_click",
+        "catalog_view",
+        "catalog_cta_click"
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "type": "FUNNEL",
+      "title": "Funnel de Conversão",
+      "steps": [
+        {
+          "name": "Home",
+          "event": "page_view",
+          "filter": {
+            "pagePath": "/"
+          }
+        },
+        {
+          "name": "Catalogo",
+          "event": "catalog_view",
+          "filter": {
+            "pagePath": "/catalogo"
+          }
+        },
+        {
+          "name": "Whatsapp",
+          "event": "cta_click",
+          "filter": {
+            "eventName": "cta_click",
+            "intent": "contact"
+          }
+        }
+      ],
+      "breakdownDimension": "sessionSource"
+    },
+    {
+      "type": "TIME_SERIES",
+      "title": "Conversões por Dia",
+      "dimension": "date",
+      "metric": "eventCount",
+      "filter": {
+        "eventName": "cta_click",
+        "intent": "contact"
+      }
+    },
+    {
+      "type": "BAR",
+      "title": "CTAs por Localização",
+      "dimension": "location",
+      "metric": "eventCount",
+      "filter": {
+        "eventName": "cta_click"
+      }
+    }
+  ],
+  "dateRange": {
+    "startDate": "30daysAgo",
+    "endDate": "today"
+  }
+}

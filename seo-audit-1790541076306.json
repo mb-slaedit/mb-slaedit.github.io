@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-09-27T20:30:42.144Z",
+  "url": "http://localhost:8100",
+  "lighthouse": {
+    "performance": 99,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "pwa": null,
+    "metrics": {
+      "largest-contentful-paint": {
+        "score": 0.98,
+        "numericValue": 759.4584000000001,
+        "displayValue": "0.8 s"
+      },
+      "interactive": {
+        "score": 1,
+        "numericValue": 780.1935200000001,
+        "displayValue": "0.8 s"
+      },
+      "cumulative-layout-shift": {
+        "score": 1,
+        "numericValue": 0,
+        "displayValue": "0"
+      },
+      "total-blocking-time": {
+        "score": 1,
+        "numericValue": 8.5,
+        "displayValue": "10 ms"
+      },
+      "first-contentful-paint": {
+        "score": 1,
+        "numericValue": 216.7024,
+        "displayValue": "0.2 s"
+      },
+      "speed-index": {
+        "score": 0.98,
+        "numericValue": 886.171296895325,
+        "displayValue": "0.9 s"
+      }
+    }
+  },
+  "axe": {
+    "violations": 1,
+    "passes": 41,
+    "incomplete": 1,
+    "inapplicable": 47,
+    "details": [
+      {
+        "id": "definition-list",
+        "impact": "serious",
+        "description": "Ensure <dl> elements are structured correctly",
+        "nodes": 1
+      }
+    ]
+  },
+  "structuredData": {
+    "count": 0,
+    "types": [],
+    "valid": false
+  },
+  "crawl": {
+    "status": 200,
+    "canonical": false,
+    "contentType": "text/html; charset=utf-8",
+    "robots": "none",
+    "meta": {
+      "robots": "index, follow",
+      "canonical": null,
+      "hreflangs": []
+    }
+  },
+  "score": 81,
+  "passed": 4,
+  "failed": 2,
+  "warnings": 0
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-27T20:37:21.446Z",
+  "url": "https://staging.rwapple.com.br",
+  "lighthouse": {
+    "performance": 0,
+    "accessibility": 0,
+    "bestPractices": 0,
+    "seo": 0,
+    "pwa": null,
+    "metrics": {
+      "largest-contentful-paint": {
+        "score": null
+      },
+      "interactive": {
+        "score": null
+      },
+      "cumulative-layout-shift": {
+        "score": null
+      },
+      "total-blocking-time": {
+        "score": null
+      },
+      "first-contentful-paint": {
+        "score": null
+      },
+      "speed-index": {
+        "score": null
+      }
+    }
+  },
+  "axe": {
+    "error": "Command failed: node axe-audit-1790541457480.js\nnode:internal/process/promises:394\r\n    triggerUncaughtException(err, true /* fromPromise */);\r\n    ^\r\n\r\npage.goto: net::ERR_NAME_NOT_RESOLVED at https://staging.rwapple.com.br/\r\nCall log:\r\n\u001b[2m  - navigating to \"https://staging.rwapple.com.br/\", waiting until \"networkidle\"\u001b[22m\r\n\r\n    at F:\\Default Project\\rw-apple\\axe-audit-1790541457480.js:8:20 {\r\n  log: [\r\n    '  - navigating to \"https://staging.rwapple.com.br/\", waiting until \"networkidle\"'\r\n  ],\r\n  name: 'Error'\r\n}\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "structuredData": {
+    "error": "Command failed: node schema-audit-1790541459003.js\nnode:internal/process/promises:394\r\n    triggerUncaughtException(err, true /* fromPromise */);\r\n    ^\r\n\r\npage.goto: net::ERR_NAME_NOT_RESOLVED at https://staging.rwapple.com.br/\r\nCall log:\r\n\u001b[2m  - navigating to \"https://staging.rwapple.com.br/\", waiting until \"networkidle\"\u001b[22m\r\n\r\n    at F:\\Default Project\\rw-apple\\schema-audit-1790541459003.js:6:20 {\r\n  log: [\r\n    '  - navigating to \"https://staging.rwapple.com.br/\", waiting until \"networkidle\"'\r\n  ],\r\n  name: 'Error'\r\n}\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "crawl": {
+    "error": "Command failed: node crawl-audit-1790541460415.js\nnode:internal/process/promises:394\r\n    triggerUncaughtException(err, true /* fromPromise */);\r\n    ^\r\n\r\npage.goto: net::ERR_NAME_NOT_RESOLVED at https://staging.rwapple.com.br/\r\nCall log:\r\n\u001b[2m  - navigating to \"https://staging.rwapple.com.br/\", waiting until \"networkidle\"\u001b[22m\r\n\r\n    at F:\\Default Project\\rw-apple\\crawl-audit-1790541460415.js:15:20 {\r\n  log: [\r\n    '  - navigating to \"https://staging.rwapple.com.br/\", waiting until \"networkidle\"'\r\n  ],\r\n  name: 'Error'\r\n}\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "score": 0,
+  "passed": 0,
+  "failed": 6,
+  "warnings": 0
+}

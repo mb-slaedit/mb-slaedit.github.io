@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-09-27T20:45:19.606Z",
+  "url": "http://localhost:8100",
+  "lighthouse": {
+    "timestamp": "2026-09-27T20:45:19.602Z",
+    "url": "http://localhost:8100",
+    "lighthouse": {
+      "performance": 99,
+      "accessibility": 96,
+      "bestPractices": 100,
+      "seo": 100,
+      "pwa": null,
+      "metrics": {
+        "largest-contentful-paint": {
+          "score": 0.98,
+          "numericValue": 762.7390250000002,
+          "displayValue": "0.8 s"
+        },
+        "cumulative-layout-shift": {
+          "score": 1,
+          "numericValue": 0,
+          "displayValue": "0"
+        },
+        "total-blocking-time": {
+          "score": 1,
+          "numericValue": 10,
+          "displayValue": "10 ms"
+        },
+        "first-contentful-paint": {
+          "score": 1,
+          "numericValue": 217.21115,
+          "displayValue": "0.2 s"
+        },
+        "speed-index": {
+          "score": 0.98,
+          "numericValue": 901.9529369793044,
+          "displayValue": "0.9 s"
+        },
+        "server-response-time": {
+          "score": 1,
+          "numericValue": 5,
+          "displayValue": "Root document took 10 ms"
+        }
+      }
+    },
+    "budgets": {}
+  },
+  "budgets": {
+    "passed": true,
+    "details": []
+  }
+}

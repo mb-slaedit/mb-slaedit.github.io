@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-09-27T20:33:38.580Z",
+  "routes": [
+    "home",
+    "catalogo"
+  ],
+  "devices": [
+    "mobile",
+    "desktop"
+  ],
+  "budgets": {
+    "home": {
+      "mobile": {
+        "lcp": 2500,
+        "inp": 200,
+        "cls": 0.1,
+        "ttfb": 800,
+        "fcp": 1800,
+        "tbt": 200,
+        "jsTotal": 174080,
+        "cssTotal": 51200,
+        "fonts": 51200,
+        "images": 512000
+      },
+      "desktop": {
+        "lcp": 2500,
+        "inp": 200,
+        "cls": 0.1,
+        "ttfb": 600,
+        "fcp": 1800,
+        "tbt": 200,
+        "jsTotal": 174080,
+        "cssTotal": 51200,
+        "fonts": 51200,
+        "images": 819200
+      }
+    },
+    "catalogo": {
+      "mobile": {
+        "lcp": 2500,
+        "inp": 200,
+        "cls": 0.1,
+        "ttfb": 800,
+        "fcp": 1800,
+        "tbt": 200,
+        "jsTotal": 174080,
+        "cssTotal": 51200,
+        "fonts": 51200,
+        "images": 512000
+      },
+      "desktop": {
+        "lcp": 2500,
+        "inp": 200,
+        "cls": 0.1,
+        "ttfb": 600,
+        "fcp": 1800,
+        "tbt": 200,
+        "jsTotal": 174080,
+        "cssTotal": 51200,
+        "fonts": 51200,
+        "images": 819200
+      }
+    }
+  },
+  "thresholds": {
+    "lcp": {
+      "good": 2500,
+      "poor": 4000
+    },
+    "inp": {
+      "good": 200,
+      "poor": 500
+    },
+    "cls": {
+      "good": 0.1,
+      "poor": 0.25
+    },
+    "ttfb": {
+      "good": 800,
+      "poor": 1800
+    },
+    "fcp": {
+      "good": 1800,
+      "poor": 3000
+    },
+    "tbt": {
+      "good": 200,
+      "poor": 600
+    }
+  }
+}

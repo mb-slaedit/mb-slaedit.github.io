@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-09-27T20:15:41.035Z",
+  "url": "http://localhost:8100",
+  "lighthouse": {
+    "performance": 99,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "pwa": null,
+    "metrics": {
+      "largest-contentful-paint": {
+        "score": 0.98,
+        "numericValue": 765.5388999999999,
+        "displayValue": "0.8 s"
+      },
+      "interactive": {
+        "score": 1,
+        "numericValue": 786.8251700000001,
+        "displayValue": "0.8 s"
+      },
+      "cumulative-layout-shift": {
+        "score": 1,
+        "numericValue": 0,
+        "displayValue": "0"
+      },
+      "total-blocking-time": {
+        "score": 1,
+        "numericValue": 8.5,
+        "displayValue": "10 ms"
+      },
+      "first-contentful-paint": {
+        "score": 1,
+        "numericValue": 219.7254,
+        "displayValue": "0.2 s"
+      },
+      "speed-index": {
+        "score": 0.98,
+        "numericValue": 938.9090017446409,
+        "displayValue": "0.9 s"
+      }
+    }
+  },
+  "axe": {
+    "error": "Command failed: node C:\\Users\\Admin\\AppData\\Local\\Temp\\axe-audit-1790540233823.js\nnode:internal/modules/cjs/loader:1520\r\n  throw err;\r\n  ^\r\n\r\nError: Cannot find module 'playwright'\r\nRequire stack:\r\n- C:\\Users\\Admin\\AppData\\Local\\Temp\\axe-audit-1790540233823.js\r\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\r\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\r\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\r\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\r\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\r\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\r\n    at require (node:internal/modules/helpers:153:16)\r\n    at Object.<anonymous> (C:\\Users\\Admin\\AppData\\Local\\Temp\\axe-audit-1790540233823.js:2:28)\r\n    at Module._compile (node:internal/modules/cjs/loader:1872:14) {\r\n  code: 'MODULE_NOT_FOUND',\r\n  requireStack: [\r\n    'C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\axe-audit-1790540233823.js'\r\n  ]\r\n}\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "structuredData": {
+    "error": "Command failed: node C:\\Users\\Admin\\AppData\\Local\\Temp\\schema-audit-1790540233992.js\nnode:internal/modules/cjs/loader:1520\r\n  throw err;\r\n  ^\r\n\r\nError: Cannot find module 'playwright'\r\nRequire stack:\r\n- C:\\Users\\Admin\\AppData\\Local\\Temp\\schema-audit-1790540233992.js\r\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\r\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\r\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\r\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\r\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\r\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\r\n    at require (node:internal/modules/helpers:153:16)\r\n    at Object.<anonymous> (C:\\Users\\Admin\\AppData\\Local\\Temp\\schema-audit-1790540233992.js:2:28)\r\n    at Module._compile (node:internal/modules/cjs/loader:1872:14) {\r\n  code: 'MODULE_NOT_FOUND',\r\n  requireStack: [\r\n    'C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\schema-audit-1790540233992.js'\r\n  ]\r\n}\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "crawl": {
+    "error": "Command failed: node C:\\Users\\Admin\\AppData\\Local\\Temp\\crawl-audit-1790540234166.js\nnode:internal/modules/cjs/loader:1520\r\n  throw err;\r\n  ^\r\n\r\nError: Cannot find module 'playwright'\r\nRequire stack:\r\n- C:\\Users\\Admin\\AppData\\Local\\Temp\\crawl-audit-1790540234166.js\r\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\r\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\r\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\r\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\r\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\r\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\r\n    at require (node:internal/modules/helpers:153:16)\r\n    at Object.<anonymous> (C:\\Users\\Admin\\AppData\\Local\\Temp\\crawl-audit-1790540234166.js:2:28)\r\n    at Module._compile (node:internal/modules/cjs/loader:1872:14) {\r\n  code: 'MODULE_NOT_FOUND',\r\n  requireStack: [\r\n    'C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\crawl-audit-1790540234166.js'\r\n  ]\r\n}\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "score": 59,
+  "passed": 3,
+  "failed": 3,
+  "warnings": 0
+}

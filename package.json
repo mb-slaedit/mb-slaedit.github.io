@@ -1,0 +1,40 @@
+{
+  "name": "rw-apple",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/generate-stats.js && next build",
+    "build:dynamic": "node scripts/generate-stats.js && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "stats:generate": "node scripts/generate-stats.js",
+    "config:static": "node scripts/switch-config.js static",
+    "config:dynamic": "node scripts/switch-config.js dynamic",
+    "ig:refresh": "node scripts/refresh-ig-token.js",
+    "ig:setup": "node scripts/ig-oauth-setup.js"
+  },
+  "dependencies": {
+    "framer-motion": "^13.4.2",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.26",
+    "lucide-react": "^1.47.0",
+    "next": "16.3.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.6",
+    "pixelmatch": "^7.2.0",
+    "playwright": "^1.63.0",
+    "pngjs": "^7.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

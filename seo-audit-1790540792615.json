@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-09-27T20:25:50.959Z",
+  "url": "http://localhost:8100",
+  "lighthouse": {
+    "performance": 99,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "pwa": null,
+    "metrics": {
+      "largest-contentful-paint": {
+        "score": 0.98,
+        "numericValue": 780.2866000000001,
+        "displayValue": "0.8 s"
+      },
+      "interactive": {
+        "score": 1,
+        "numericValue": 803.5549800000001,
+        "displayValue": "0.8 s"
+      },
+      "cumulative-layout-shift": {
+        "score": 1,
+        "numericValue": 0,
+        "displayValue": "0"
+      },
+      "total-blocking-time": {
+        "score": 1,
+        "numericValue": 18.5,
+        "displayValue": "20 ms"
+      },
+      "first-contentful-paint": {
+        "score": 1,
+        "numericValue": 218.36760000000004,
+        "displayValue": "0.2 s"
+      },
+      "speed-index": {
+        "score": 0.98,
+        "numericValue": 925.6214200504189,
+        "displayValue": "0.9 s"
+      }
+    }
+  },
+  "axe": {
+    "error": "Command failed: node axe-audit-1790540777055.js\nF:\\Default Project\\rw-apple\\node_modules\\@axe-core\\playwright\\dist\\index.js:253\r\n      throw new Error(\r\n            ^\r\n\r\nError: Please use browser.newContext()\r\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md\r\n    at AxeBuilder.analyze (F:\\Default Project\\rw-apple\\node_modules\\@axe-core\\playwright\\dist\\index.js:253:13)\r\n    at async F:\\Default Project\\rw-apple\\axe-audit-1790540777055.js:8:25\r\n\r\nNode.js v24.19.0\r\n"
+  },
+  "structuredData": {
+    "count": 0,
+    "types": [],
+    "valid": false
+  },
+  "crawl": {
+    "status": 200,
+    "canonical": false,
+    "contentType": "text/html; charset=utf-8",
+    "robots": "none",
+    "meta": {
+      "robots": "index, follow",
+      "canonical": null,
+      "hreflangs": []
+    }
+  },
+  "score": 79,
+  "passed": 4,
+  "failed": 2,
+  "warnings": 0
+}
